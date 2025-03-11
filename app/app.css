@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+  background-color: black;
+  color: wheat;
+  font-family: serif;
+  font-size: x-large;
+}
+.navbar{
+    backdrop-filter: blur(10px);
+}
+.navbar-brand{
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-size: 250%;
+  color: green;
+}
+.navbar-links{
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+.years{
+  font-family: "Tangerine", cursive;
+  font-size: 200%;
+  font-weight: 600;
+  color: rgb(255, 208, 0);
+}
+
+@media screen and ( max-width:800px) {
+    .card{
+      width: 80%;
+      margin-left: 10%;
+    }
+}

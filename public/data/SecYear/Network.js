@@ -1,0 +1,55 @@
+const naData = [
+    {
+      height: "h-auto ",
+      width: "w-max-[300px]",
+      heading: "Tutorials",
+      description: "Here are the tutorials most from after midsem. Before midsem tutorials are most from Sedra Smith Book. So get the question numbers from your professor and do it.",
+      image: "/Tutorial.jpg",
+      buttonLink: "https://drive.google.com/drive/folders/1gjbOHvaGA1IkR2AXGRFrTli_dXcaZM-K?usp=sharing",
+      buttonText: "Click Here",
+      headfont: "font-[Alegreya]",
+    },
+    {
+      height: "h-auto",
+      width: "w-[30vw]",
+      heading: "PYQs",
+      description: "PYQs of Different sems: In KGPallence and SWG and in metakgp you will find another pyqs. And also you can contribute.... Our prof had solved one of the PYQs. So do visit it.",
+      image: "/PYQs.jpeg",
+      buttonLink: "https://drive.google.com/drive/folders/1Vsi5xiq_M54JIe0a-O8mDl4YGMt_Vy5u?usp=sharing",
+      buttonText: "Click Here",
+      headfont: "font-[Alegreya]",
+    },
+    {
+      height: "h-auto",
+      width: "w-[30%]",
+      heading: "Notes",
+      description: "I think you will get your class notes in MS Teams, it the prof is not changed. If he gets changed, then refer this website to your friends.",
+      image: "/Notes.jpg",
+      buttonLink: "/Nothing",
+      buttonText: "Click Here",
+      headfont: "font-[Alegreya]",
+    },
+    {
+      height: "h-auto",
+      width: "w-[30%]",
+      heading: "Books",
+      description: "Here is the only book of Analog that is enough to get good score. So just read it and try teaching your friends for better realisation. ",
+      image: "/Books.jpeg",
+      buttonLink: "/Nothing",
+      buttonText: "Click Here",
+      headfont: "font-[Alegreya]",
+    },
+    {
+      height: "h-auto",
+      width: "w-[30%]",
+      heading: "Handwritten Notes",
+      description: "Here is the most important thing. My handwritten Notes. I think it will be helpful if you keep these as your guide.",
+      image: "/Handwritten.jpg",
+      buttonLink: "Nothing",
+      buttonText: "Click Here",
+      headfont: "font-[Alegreya]",
+    },
+  ];
+  
+  export default naData;
+  
